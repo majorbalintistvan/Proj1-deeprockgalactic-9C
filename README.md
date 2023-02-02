@@ -1,2 +1,2 @@
-# Proj1_Major-Balint-Istvan-Pocze-Martin_9C
+# Proj1_Deep-Rock-Galactic_9C
 Közös Projecktmunka
