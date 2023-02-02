@@ -1,2 +1,2 @@
-# Proj1_Deep-Rock-Galactic_9C
+# Proj1_DeepRockGalactic_9C
 Közös Projecktmunka
