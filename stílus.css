@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    font-family: 'Abel';
+    color: white;
+}
+#főlogo {
+    margin: auto;
+    display: block;
+}
