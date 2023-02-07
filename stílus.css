@@ -1,9 +1,30 @@
 body {
-    background-color: black;
-    font-family: 'Abel';
-    color: white;
+  background-color: black;
+  font-family: "Abel";
+  color: white;
 }
 #főlogo {
-    margin: auto;
-    display: block;
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+.menü:hover {
+  background-color: gray;
+}
+.menü {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menüszél {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.alapcsat {
+  text-decoration: none;
+  color: white;
 }
