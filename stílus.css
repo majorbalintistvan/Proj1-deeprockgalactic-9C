@@ -39,3 +39,9 @@ body {
 .jobbra {
   float: right;
 }
+.szöveg{
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  font-size: 28.5px;
+}
