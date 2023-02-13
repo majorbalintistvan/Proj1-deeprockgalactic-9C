@@ -22,20 +22,21 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 .menüszél {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
 }
 .alapcsat {
   text-decoration: none;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 3vw;
 }
 .balra {
   float: left;
@@ -48,5 +49,5 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
-  font-size: 28.5px;
+  font-size: 1.5vw;
 }
