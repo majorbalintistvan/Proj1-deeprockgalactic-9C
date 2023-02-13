@@ -2,6 +2,9 @@ body {
   font-family: "Abel";
   color: white;
 }
+body, html{
+  height: 100%;
+}
 .háttérkép {
   background-image: url(elmosódottháttér.jpg);
   background-repeat: no-repeat;
@@ -39,7 +42,7 @@ body {
   font-size: 3vw;
 }
 .balra {
-  float: left;
+float: left;
 }
 .jobbra {
   float: right;
