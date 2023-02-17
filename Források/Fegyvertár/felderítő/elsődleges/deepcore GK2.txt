@@ -1,0 +1,5 @@
+A Deepcore GK2 rohampuska a Felderítő alapértelmezett elsődleges fegyvere. 
+A fegyver tömzsi csövét egy hőpajzs tartalmazza, egy hatalmas előkapaszkodó fölött. 
+A fegyver vasirányítói, bár láthatóak, nem használatosak. 
+Újratöltéskor a Scout kiüti az elhasznált tárat a tartályból egy új tárral, mielőtt belecsapna a fegyverbe.
+A GK2 egy szabványos automata rohampuska.
