@@ -15,7 +15,7 @@ body, html{
 #főlogo {
   margin: auto;
   display: block;
-  width: 50%;
+  width: 35%;
 }
 .menü:hover {
   background-color: rgba(128, 128, 128, 0.4);
@@ -23,10 +23,10 @@ body, html{
 }
 .menü {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
 }
 .menüszél {
   margin-left: 50px;
@@ -37,9 +37,9 @@ body, html{
 .alapcsat {
   text-decoration: none;
   color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 3vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2.5vw;
 }
 .balra {
 float: left;
@@ -52,5 +52,5 @@ float: left;
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
