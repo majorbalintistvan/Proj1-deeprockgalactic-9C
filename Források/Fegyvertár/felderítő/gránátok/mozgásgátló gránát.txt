@@ -1,0 +1,4 @@
+Mozgásgátló generátor (Röviden IFG)  egy dobható támogatási eszköz a Felderítő számára.
+Az IFG-t gránátként dobják, és minden felülethez tapad, amihez hozzáér. Rövid késleltetés után "mozgásgátló mezőt" bocsát ki, amely 75%-kal lelassítja az ellenséget (0,25-szeres mozgási sebesség), és 30%-kal növeli az elszenvedett sebzést. Az ellenséges animációk megfelelően lelassulnak, hogy megfeleljenek a csökkentett mozgási sebességüknek.
+Az mozgásgátló mezőn belüli ellenségek áramütést szenvedtek , annak ellenére, hogy valójában nem okoztak sebzést.
+

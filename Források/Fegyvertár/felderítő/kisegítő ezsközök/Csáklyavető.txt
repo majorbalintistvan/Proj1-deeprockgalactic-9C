@@ -1,0 +1,3 @@
+A Grappling Hook (Csáklyavető) egy segédeszköz a Felderítő számára .
+Amikor a horog elsül, egy kis késéssel a Felderítő hirtelen a megcélzott helyre húzódik. Továbbra is lenyomva lehet tartani a ravaszt, hogy a Felderítő a helyén maradjon. Amikor elengedik a ravaszt, a Felderítő a földre esik, és megkezdődik a fegyver lehűlése, négy másodpercbe telhet (alapértelmezés szerint), hogy újratölthető legyen, mielőtt újra el lehet lőni. A fegyveren lévő mérőműszer jelzi az újratöltési időt, és kattanó zaj hallható, amikor teljesen fel van töltve.
+Amikor a Grappling Hook-ot a földre lövik, a Felderítő a földre húzódik anélkül, hogy esési sérülést szenvedne.

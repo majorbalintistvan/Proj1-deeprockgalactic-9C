@@ -1,0 +1,3 @@
+A Nishanka Boltshark X-80 egy feloldható másodlagos fegyver a Felderítő számára . Ez egy modernizált kompakt számszeríj. 
+A Boltshark egy másodlagos lőszerkészlettel rendelkezik, amely speciális nyílveszőkből áll, amelyeket az Újratöltés gomb megnyomásával lehet felcserélni (alapértelmezés szerint "R").
+Ezeket a nyílveszők nem érintik az elsődleges lőszerkészletet. Az utánpótlás használata mindkét lőszerkészletet külön-külön tölti fel.

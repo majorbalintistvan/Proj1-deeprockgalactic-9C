@@ -1,0 +1,3 @@
+A Voltaic Stun Sweeper egy kinyitható bumeráng a Felderítő számára.
+A Voltaic Stun Sweeper egyetlen dobással kilenc ellenséget képes eltalálni, mielőtt eltörne. Ha nem talál el célt, lőszerpazarlás nélkül visszarepül a Felderítőhöz, hogy újra felhasználhassa.
+A Voltaic Stun Sweeper által eltalált célpontokat azonnal elkábítanák, és közben áramütést szenvednének. Az ellenség több csoportjának elkábítására való képessége, valamint a célpontok elleni védekezés nagyon hasznos fegyverré teszi repülő lényekkel szemben. Van azonban egy árnyoldala is. A Voltaic Stun Sweeperben nincs mindenféle páncéltörés, így rossz választás a nagyobb ellenségek ellen.
