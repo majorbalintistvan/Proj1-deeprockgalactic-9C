@@ -1,0 +1,4 @@
+Zhukov NUK17 egy feloldható másodlagos fegyver a Felderítő számára . Ez egy pár géppisztoly. 
+Mindkét pisztolynak külön lőszerszámlálója van, amely a játékos HUD-ján egyetlen számlálóba van összevonva.
+A lőszereket mindig párban fogyasztják el, bár csak egy golyót fognak kilőni.
+Bár a fegyver statisztikái azt mutatják, hogy másodpercenként 30 lövést tud leadni, általános tévhit, hogy a fegyver annyi sebzést képes kiadni, amennyit leír. A tényleges játékmenetben a géppisztolyok feleannyi golyóval rendelkeznek; ez azt jelenti, hogy a fegyver által használt minden 2 lőszer után csak 1 golyót lőnek ki, és csak 1 golyó értékű sebzést okoznak.

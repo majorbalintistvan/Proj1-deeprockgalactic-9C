@@ -1,0 +1,4 @@
+A Cryo Grenade egy kinyitható gránát a Scout számára .
+ Cryo Grenade egy nagy jeges robbanást hoz létre, amely képes azonnal a helyükre fagyasztani az ellenséget , ha érintkezésbe kerül egy ellenséggel. 
+ Ez a gránát a biztosíték időzítőjén elgurul és felrobban, de azonnal felrobban, amint célba talál. A lefagyott ellenségek háromszoros sebzést kapnak (de elveszítik a korábbi gyenge pontjaikat), és teljesen mozgásképtelenné válnak. 
+ A fagyás azt is megakadályozza, hogy több ellenség egyedi képességeket hajtson végre; például a lefagyott Glyphid Detonátorok és Glyphid Bulk Detonátorok nem tudnak felrobbanni. Az olyan repülő ellenségek, mint a Mactera , a padlóra zuhannak, és fagyáskor azonnal összetörnek.

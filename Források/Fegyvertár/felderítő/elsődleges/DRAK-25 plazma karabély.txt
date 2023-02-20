@@ -1,0 +1,3 @@
+A DRAK-25 Plasma Carbine egy kinyitható elsődleges fegyver a Felderítő számára
+A plazmakarabély egyetlen lőszerkészletből táplálkozik, és túlmelegedési mechanikával rendelkezik.
+Plasma Carbine kilövésekor minden lövés hőt termel, amelyet a fegyver digitális kijelzőjén mérnek. Miután hosszabb ideig lőtt, és teljesen feltöltötte a hőmérőt, a Plasma Carbine elakad, ami a fegyvert működésképtelenné teszi a túlmelegedés időtartamára.
