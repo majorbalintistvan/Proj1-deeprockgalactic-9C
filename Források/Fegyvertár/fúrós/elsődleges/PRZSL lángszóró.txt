@@ -1,0 +1,4 @@
+A PRZSL lángszóró a Fúrós alapértelmezett elsődleges fegyvere. Ez egy harcra kész lángszóró.
+A lángszóró tüzet bocsát ki, amikor a ravaszt lenyomva tartja, károsítja az ellenséget , és gyorsan megemeli a hőmérsékletüket, hogy meggyulladjon . A lángra lobbant lények idővel fokozatosan sebződnek.
+lángszórónak számos más egyedi jellemzője is van; kisebb páncéltörő képességekkel rendelkezik, mivel nem használ golyókat vagy robbanóanyagokat, és a páncéllemezeiken keresztül károsíthatja az ellenséget bár csökkentett mértékben.
+A fegyver bónusz sebzést okoz a Glacial Strata ellenséges változataiban, mivel tűzfegyver, és Mactera ellenségei számára is

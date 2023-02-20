@@ -1,0 +1,5 @@
+A Cryo ágyú egy kinyitható elsődleges fegyver a Fúró számára . Ez egy hatalmas, alig hordozható fagyasztósugár.
+A Cryo ágyú dermesztő hideg lövedéket lő ki ami sebzést okoz, és csökkenti az ellenség hőmérsékletét , ami végül lefagyást okoz. A lefagyott ellenségek háromszoros sebzést kapnak de elveszítik a korábbi gyenge pontjaikat, és teljesen mozgásképtelenné válnak. 
+A fagyás azt is megakadályozza, hogy több ellenség egyedi képességeket hajtson végre; például a lefagyott Glyphid Detonátorok és Glyphid Bulk Detonátorok nem tudnak felrobbanni. Az olyan repülő ellenségek, mint a Mactera , a padlóra zuhannak, és fagyáskor azonnal összetörnek.
+A Glacial Strata ellenségei is jobban ellenállnak ennek a fegyvernek a fagyasztó hatásának.
+A Cryo Cannon nem használ újratöltő rendszert, hanem egy tartalék lőszerkészletből merít. A tűz gomb megnyomására a fegyvernek van egy rövid "feltöltési" időszaka, mielőtt kifújja a jeges keveréket.
