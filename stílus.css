@@ -2,7 +2,8 @@ body {
   font-family: "Abel";
   color: white;
 }
-body, html{
+body,
+html {
   height: 100%;
 }
 .háttérkép {
@@ -42,15 +43,26 @@ body, html{
   font-size: 3vw;
 }
 .balra {
-float: left;
+  float: left;
 }
 .jobbra {
   float: right;
 }
-.szöveg{
+.szöveg {
   font-family: "Abel";
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
   font-size: 1.5vw;
+}
+.képközép {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+#krakaterháttér {
+  background-image: url(elmosódottháttér.jpg);
 }
