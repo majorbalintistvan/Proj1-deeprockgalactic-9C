@@ -65,7 +65,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   text-decoration: underline;
 }
 .fenthely {
@@ -92,4 +92,36 @@ h2 {
 }
 #felderítő {
   background-color: rgba(0, 0, 255, 0.7);
+}
+#fúrós:hover {
+  background-color: rgba(255, 255, 0, 0.9);
+}
+#mérnök:hover {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+#lövész:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+#felderítő:hover {
+  background-color: rgba(0, 0, 255, 0.9);
+}
+.karakterkép {
+  width: 25vw;
+}
+.fúrósháttér {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+.mérnökháttér {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.lövészháttér {
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.feldháttér {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+.kisszöveg {
+  font-family: "Abel";
+  text-align: justify;
+  font-size: 1.3vw;
 }
