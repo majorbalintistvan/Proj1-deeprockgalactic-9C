@@ -1,0 +1,7 @@
+A Colette Wave Cooker egy kinyitható másodlagos fegyver a Fúrós számára .
+A Wave Cooker, hasonlóan az ágyús "Lead Storm" meghajtású Minigunhoz és a Fúrós Kísérleti Plazmatöltőhöz , egyetlen lőszerkészletből táplálkozik, és túlmelegedési mechanikával rendelkezik. 
+Ez azt jelenti, hogy mindaddig hő termelődik, amíg a ravaszt lenyomva tartják, amit a fegyver digitális kijelzőjén mérnek. 
+Miután huzamosabb ideig tüzelt, és teljesen feltöltötte a hőmérőt, a Wave Cooker elakad, ami a túlmelegedés időtartamára működésképtelenné teszi a fegyvert.
+A Wave Cooker használatakor egy hengeres mikrohullámú "sugár" keletkezik, amely folyamatos sérülést okoz minden akadálytalan célpontban, amely az útjába kerül. Maga a sugár láthatatlan, a látvány csak a becsapódási pontjából jelenik meg, és hatékony, végtelen hatótávolságú. 
+A fegyver szálkeresztje a fegyver és a becsapódási pont távolsága alapján próbálja ábrázolni a sugár szélességét, azonban bizonyos távolság után a sugár szélessége a hengeres vetület perspektívája miatt sokkal kisebbnek tűnik, mint a szálkereszt. statikus átmérőjű.
+A Wave Cooker által megölt ellenségek egyedülálló vizuális hatást produkálnak, ami a Glyphid Robbanó halálos robbanását is megakadályozza .
