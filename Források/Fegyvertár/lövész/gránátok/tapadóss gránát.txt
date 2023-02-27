@@ -1,0 +1,3 @@
+A tapadós gránát az lövész alapértelmezett gránátja. 
+Ennek a gránátnak a biztosíték időzítője akkor indul, amikor a felületre kattan. Szinte bármilyen felületre tud tapadni, és nem gurul. A biztosíték rövid időzítése után felrobban.
+A gránátnak "Fear Factor" effektusai vannak: a Sticky Grenade-hoz ragadt célpontnak nagyobb az esélye a menekülésre.

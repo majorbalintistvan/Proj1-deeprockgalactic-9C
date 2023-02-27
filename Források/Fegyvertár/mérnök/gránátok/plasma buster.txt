@@ -1,0 +1,1 @@
+ A Plasma Burster egy kinyitható gránát a mérnök számára. Amikor a Plasma Burster földet ér, azonnal felrobban, és négy közepes plazmarobbanást hoz létre, amelyek egymás után, a bedobás irányát követve robbannak fel. A robbanások nem méretezhetik át a falakat, és az ellenkező irányba "pattannak" több sorozatot kell létrehozni, amikor a vonal falhoz ütközik.

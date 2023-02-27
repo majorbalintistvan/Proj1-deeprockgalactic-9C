@@ -1,0 +1,3 @@
+A Proximity Mine egy kinyitható gránát a mérnök számára. A Proximity Mine bármilyen felülethez tapadhat, amelyre rádobják.
+Amikor egy Glyphid katona vagy nagyobb lény átlépi az észlelési sugarat, felrobban. Az olyan kis lények, mint a Glyphid rajzók, nem képesek elindítani a mozgásérzékelőket a bányán, és észrevétlenül elsiklanak.
+

@@ -67,6 +67,8 @@ h1 {
 h2 {
   font-size: 45px;
   text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
 }
 .fenthely {
   margin-top: 2vw;
@@ -125,6 +127,7 @@ h2 {
   text-align: justify;
   font-size: 1.3vw;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -223,3 +226,15 @@ h2 {
     font-size: 1.5em;
     color: #ffffff;
   }
+
+#küldetésháttér {
+  background-image: url(küldetésháttér.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100%;
+  background-size: cover;
+}
+.kiscím {
+  text-decoration: underline;
+}
+

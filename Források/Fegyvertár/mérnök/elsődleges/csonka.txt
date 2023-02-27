@@ -1,0 +1,1 @@
+ A "Csonka" Galván gépfegyver a mérnök egyik alternatív elsődleges fegyvere. Ahogy a fegyver neve is sugallja, elektromos funkciókkal van felszerelve; alapértelmezés szerint minden leadott lövésnél 25% esély van arra, hogy áramütést szenvedjen a célponton, ami idővel károsítja őket, miközben lelassítja a mozgását.
