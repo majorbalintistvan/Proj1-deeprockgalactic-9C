@@ -1,0 +1,3 @@
+Ez egy kinyitható gránát a lövész számára
+Miután eldobták, a Tactical Leadburster a helyén ragadt a földön, a falon vagy a mennyezeten. Közvetlenül azután, hogy felerősítette magát a felszínre, a Tactical Leadburster „feje” aktiválódik, és 360 fokos sugárban lövedékeket lövell ki; a falakat, a mennyezetet és a padlót golyólyukakba borítja. 
+Bármely entitás, legyen az egy törpe vagy egy Hoxxes lény, megsérül a lövési sugarában. A Tactical Leadbursterhez legközelebb állók csak minimális sebzést szenvednének, de a távolabbiak lényegesen több sebzést szenvednek el. Ez a berendezés hihetetlenül pusztító az ellenséges rajokkal szemben, jelentős károkat okozva nemcsak az ágyútölteléknek, hanem az eliteknek is.
