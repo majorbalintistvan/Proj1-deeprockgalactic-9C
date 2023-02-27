@@ -1,5 +1,6 @@
 karakterek
 cél, összefoglalás 
+másodlagos küldetések
 küldetésekhezpálya típusok
 nehezítések, könnyítések
 bázis (vezetőség)
