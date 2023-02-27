@@ -1,0 +1,2 @@
+A villámszoró egy kinyitható elsődleges fegyvere az Lövésznek.
+Az villámszoró robbanékony töltényeket lő ki, amelyek felrobbannak, ha eltalálnak valamit. A lövedékek által közvetlenül eltalált ellenségek egyszerre veszik el a golyó és a robbanásveszélyes sebzést. A leadott lövedékek lassú tüzelési sebességgel indulnak, de ez idővel felhalmozódhat, minél tovább tartjuk a ravaszt.

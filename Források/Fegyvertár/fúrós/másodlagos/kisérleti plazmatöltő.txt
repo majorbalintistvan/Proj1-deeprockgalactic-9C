@@ -1,0 +1,5 @@
+ A Kísérleti Plazmatöltő egy kinyitható másodlagos fegyver, amelyet a Fúrós  használ.
+ A fegyver egyetlen nagy lőszerkészletből táplálkozik, és túlmelegedési mechanikával rendelkezik. 
+Két tüzelési móddal büszkélkedhet; Szokásos lövések a tűz gomb megérintésével, a feltöltött lövés pedig a tűz gomb nyomva tartásával és felengedésével. Mindkét tüzelési mód lila plazmarobbanásokat produkál, amelyeket lövedéknek tekintenek, és fizikailag át kell utazniuk a világon, mielőtt célba találnának. 
+Mindkét tüzelési mód hőt termel, amelyet a fegyveren lévő mérőműszer mér. Ha ez a mutató eléri a csúcsot, a fegyver túlmelegszik, és rövid időre működésképtelenné válik.
+Egy feltöltött lövés nem képes sebezni a gyenge pontot.

@@ -1,0 +1,1 @@
+A Cluster Grenade nem okoz robbanást leérkezéskor. Ehelyett kilöki kilenc miniatűr bombájáz, miután rövid késéssel ütközik valamivel. Ezek a "bombák" véletlenszerű irányokba lövődnek ki, és azonnal felrobban becsapódáskor. Ezen bombák együttes sebzése 360 ​​sebzést tesz ki. Esélyük van arra is, hogy elkábítsák célpontjukat.

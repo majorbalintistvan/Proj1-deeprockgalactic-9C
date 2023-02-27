@@ -1,0 +1,8 @@
+Az Impact Axe egyszerre 3 sebzést okoz. Közvetlen közelharci sebzés 2 részre osztva, és területi robbanásveszélyes sebzés. Ez a három szám együttesen 240 sebzést okoz egyetlen eldobott baltával, valamint elkábítja a célpontot.
+A 3 kárpéldány a következő sorrendben fog aktiválódni:
+Közvetlen károk 1. rész
+Akadályozza meg, hogy a fejsze elfogyjon, ha megöli a célpontot.
+Közvetlen sérülés 2. rész
+Fogyassza el a fejszét, ha a lényt eltalálják.
+Területi károsodás
+Nem fogyasztja a fejszét, mint a Közvetlen Sebzés 1. rész.

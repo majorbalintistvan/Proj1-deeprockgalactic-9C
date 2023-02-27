@@ -1,0 +1,3 @@
+A maró iszapszivattyú egy kinyitható elsődleges fegyver a Fúrós számára .
+Az iszapszivattyú két égetési móddal rendelkezik; A tűzgomb megérintése egyetlen iszapdarabot lő ki, míg a tűzgomb lenyomva tartása és elengedése egy iszapbombát indít el, aminek következtében több töredék kirepül az ütközés hatására.
+Amikor egy korrozív lövedék nekiütközik az ellenségnek, az ellenség láthatóan iszappal lesz bevonva, és idővel sebzést szenved. Amikor a lövedék nekiütközik egy felületnek, korrozív tócsát hoz létre, amely minden rajta átsétáló ellenség számára pontatlanságot okoz, és lelassítja őket.

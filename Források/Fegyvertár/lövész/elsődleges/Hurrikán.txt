@@ -1,0 +1,3 @@
+A "Hurrikán" irányított rakétarendszer egykinyitható elsődleges fegyver az lővész számára. 
+Ennek a fegyvernek a legfigyelemreméltóbb tulajdonsága az, hogy képes a rakétákat oda irányítani, ahová a célkereszt céloz, beleértve az ellenségeket is. 
+Ez a követési funkció minden kilőtt rakétára vonatkozik, és túlórák használata nélkül nem tiltható le, bár a fegyver fel nem szerelése azt eredményezi, hogy a repülés közbeni rakéták elveszítik az irányíthatóságukat. Ezeknek a rakétáknak az irányítása azután visszaszerezhető a fegyverre való visszacseréléssel, miközben repülés közben maradnak.

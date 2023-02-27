@@ -1,0 +1,3 @@
+A Résvágó egy kinyitható másodlagos fegyver, amelyet a Mérnök használ.
+Kilövéskor a plazma penge kitágul és hosszú lila vonalként halad, majd másfél másodperccel később bezár. A plazmapengék sebzést okoznak, ha az ellenséggel érintkeznek .
+A plazma pengék végtelenül átütőek, és tetszőleges számú ellenségen át tudnak hatolni, valamint bármilyen terepen áthaladnak sérülésveszteség nélkül, így a felhasználó falak mögött célokat találhat el.
