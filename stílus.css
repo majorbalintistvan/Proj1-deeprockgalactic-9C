@@ -237,4 +237,23 @@ h2 {
 .kiscím {
   text-decoration: underline;
 }
-
+.ikon {
+  float: left;
+  width: 50px;
+  margin-right: 1200px;
+}
+.küldetésképek {
+  width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.szövegbal {
+  text-align: left;
+}
+.küldetésekszöv {
+  font-size: x-large;
+}
