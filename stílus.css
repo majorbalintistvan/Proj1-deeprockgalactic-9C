@@ -1,3 +1,4 @@
+/*html oldal*/
 body {
   font-family: "Abel";
   color: white;
@@ -127,7 +128,7 @@ h2 {
   text-align: justify;
   font-size: 1.3vw;
 }
-
+/* kvíz oldal*/
 * {
   padding: 0;
   margin: 0;
@@ -226,7 +227,7 @@ h2 {
     font-size: 1.5em;
     color: #ffffff;
   }
-
+/*html oldal újra*/
 #küldetésháttér {
   background-image: url(küldetésháttér.jpg);
   background-repeat: no-repeat;
