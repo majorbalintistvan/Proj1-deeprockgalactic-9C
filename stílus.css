@@ -255,3 +255,19 @@ h2 {
 .küldetésekszöv {
   font-size: x-large;
 }
+#bolygórégiókháttér {
+  background-image: url(bolygórégiókháttér.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100%;
+  background-size: cover;
+}
+.sötétítő {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.angyalméret {
+  width: 300px;
+}
+.ásványok {
+  width: 50px;
+}
