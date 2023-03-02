@@ -1,4 +1,4 @@
-//References
+//Kvíz
 let timeLeft = document.querySelector(".time-left");
 let quizContainer = document.getElementById("container");
 let nextBtn = document.getElementById("next-button");
@@ -13,8 +13,6 @@ let questionCount;
 let scoreCount = 0;
 let count = 25;
 let countdown;
-
-//Questions and Options array
 
 const quizArray = [
   {
@@ -35,34 +33,74 @@ const quizArray = [
     options: ["2", "4", "5", "3"],
     correct: "2",
   },
+  {
+    id: "3",
+    question: "Melyik küldetés célja a morkit finomítás?",
+    options: ["Helyszíni finomítás", "Bányászati Expedíció", "Kíséret", "Kitermelés"],
+    correct: "Helyszíni finomítás",
+  },
+  {
+    id: "4",
+    question: "Melyik törpének van csali gránátja?",
+    options: ["Felderítő","Mérnök","Lövész","Fúrós"],
+    correct: "Mérnök",
+  },
+  {
+    id: "5",
+    question: "Melyik fegyvernek van másodlagos tüzelési módja?",
+    options: ["Lead storm", "LOK-1", "Deepcore GK2", "Cryo ágyú"],
+    correct: "LOK-1",
+  },
+  {
+    id: "6",
+    question: "Melyik törpnek vörös a szakála?",
+    options: ["Fúrós", "Mérnök", "Lövész", "Felderítő"],
+    correct: "Felderítő",
+  },
+  {
+    id: "7",
+    question: "A Kitermelés küldetés végén hány percig kell túlélned?",
+    options: ["2", "1 és fél", "Semeddig", "1"],
+    correct: "2",
+  },
+  {
+    id: "8",
+    question: "Melyik küldetés célja az Ommorán-szívkő begyűjtése?",
+    options: ["Kiiktatás", "Ipari szabotázs", "Kíséret", "Kitermelés"],
+    correct: "Kíséret",
+  },
+  {
+    id: "9",
+    question: "Hogy hívják az ipari szabotázs küldetésen a főellenséget?",
+    options: ["Pusztító", "Karl","Nemezis", "Gondviselő"],
+    correct: "Gondviselő",
+  },
 ];
 
-//Restart Quiz
 restart.addEventListener("click", () => {
   initial();
   displayContainer.classList.remove("hide");
   scoreContainer.classList.add("hide");
 });
 
-//Next Button
 nextBtn.addEventListener(
   "click",
   (displayNext = () => {
-    //increment questionCount
+
     questionCount += 1;
-    //if last question
+
     if (questionCount == quizArray.length) {
       //hide question container and display score
       displayContainer.classList.add("hide");
       scoreContainer.classList.remove("hide");
-      //user score
+      
       userScore.innerHTML =
         "Az eredményed " + scoreCount + "/" + questionCount;
     } else {
-      //display questionCount
+      
       countOfQuestion.innerHTML =
         questionCount + 1 + " of " + quizArray.length + " Question";
-      //display quiz
+      
       quizDisplay(questionCount);
       count = 25;
       clearInterval(countdown);
@@ -71,7 +109,6 @@ nextBtn.addEventListener(
   })
 );
 
-//Timer
 const timerDisplay = () => {
   countdown = setInterval(() => {
     count--;
@@ -83,60 +120,56 @@ const timerDisplay = () => {
   }, 1000);
 };
 
-//Display quiz
 const quizDisplay = (questionCount) => {
   let quizCards = document.querySelectorAll(".container-mid");
-  //Hide other cards
+  
   quizCards.forEach((card) => {
     card.classList.add("hide");
   });
-  //display current question card
+
   quizCards[questionCount].classList.remove("hide");
 };
 
-//Quiz Creation
 function quizCreator() {
-  //randomly sort questions
+  
   quizArray.sort(() => Math.random() - 0.5);
-  //generate quiz
+  
   for (let i of quizArray) {
-    //randomly sort options
+    
     i.options.sort(() => Math.random() - 0.5);
-    //quiz card creation
+    
     let div = document.createElement("div");
     div.classList.add("container-mid", "hide");
-    //question number
+    
     countOfQuestion.innerHTML = 1 + " of " + quizArray.length + " Question";
-    //question
+    
     let question_DIV = document.createElement("p");
     question_DIV.classList.add("question");
     question_DIV.innerHTML = i.question;
     div.appendChild(question_DIV);
-    //options
+    
     div.innerHTML += `
     <button class="option-div" onclick="checker(this)">${i.options[0]}</button>
      <button class="option-div" onclick="checker(this)">${i.options[1]}</button>
       <button class="option-div" onclick="checker(this)">${i.options[2]}</button>
-       <button class="option-div" onclick="checker(this)">${i.options[3]}</button>
+      <button class="option-div" onclick="checker(this)">${i.options[3]}</button>
     `;
     quizContainer.appendChild(div);
   }
 }
 
-//Checker Function to check if option is correct or not
 function checker(userOption) {
   let userSolution = userOption.innerText;
   let question =
     document.getElementsByClassName("container-mid")[questionCount];
   let options = question.querySelectorAll(".option-div");
 
-  //if user clicked answer == correct option stored in object
   if (userSolution === quizArray[questionCount].correct) {
     userOption.classList.add("correct");
     scoreCount++;
   } else {
     userOption.classList.add("incorrect");
-    //For marking the correct option
+    
     options.forEach((element) => {
       if (element.innerText == quizArray[questionCount].correct) {
         element.classList.add("correct");
@@ -144,15 +177,13 @@ function checker(userOption) {
     });
   }
 
-  //clear interval(stop timer)
   clearInterval(countdown);
-  //disable all options
+  
   options.forEach((element) => {
     element.disabled = true;
   });
 }
 
-//initial setup
 function initial() {
   quizContainer.innerHTML = "";
   questionCount = 0;
@@ -164,14 +195,12 @@ function initial() {
   quizDisplay(questionCount);
 }
 
-//when user click on start button
 startButton.addEventListener("click", () => {
   startScreen.classList.add("hide");
   displayContainer.classList.remove("hide");
   initial();
 });
 
-//hide quiz and display start screen
 window.onload = () => {
   startScreen.classList.remove("hide");
   displayContainer.classList.add("hide");
