@@ -260,8 +260,22 @@ h2 {
   background-color: #de8b06df;
 }
 .card{
-  background-color: #00000098;
+  background-color: #000000ca;
 }
 .fegyverek{
   height: 50vh;
+}
+#furos-hatter{
+  background-image: url(Források/képek/driller.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100%;
+  background-size: cover;
+}
+.fejezetcim1{
+  margin-bottom: 1.5em;
+}
+.fejezetcim2{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
