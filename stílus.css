@@ -69,6 +69,7 @@ h2 {
   text-decoration: underline;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
 }
 .fenthely {
   margin-top: 2vw;
@@ -236,6 +237,7 @@ h2 {
 }
 .kiscím {
   text-decoration: underline;
+  margin-top: 20px;
 }
 .ikon {
   float: left;
