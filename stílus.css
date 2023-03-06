@@ -39,9 +39,9 @@ html {
 .alapcsat {
   text-decoration: none;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 2.5vw;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 5.5vh;
 }
 .balra {
   float: left;
