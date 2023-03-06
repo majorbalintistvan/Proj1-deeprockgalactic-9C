@@ -265,6 +265,9 @@ h2 {
 .fegyverek{
   height: 50vh;
 }
+.eloszto{
+  height: 50vh;
+}
 
 #furos-hatter{
   background-image: url(Források/képek/driller.jpg);
