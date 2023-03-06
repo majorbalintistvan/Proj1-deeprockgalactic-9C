@@ -110,7 +110,7 @@ h2 {
   background-color: rgba(0, 0, 255, 0.9);
 }
 .karakterkép {
-  width: 25vw;
+  height: 65vh;
 }
 .fúrósháttér {
   background-color: rgba(255, 255, 0, 0.2);
@@ -287,7 +287,7 @@ h2 {
   background-size: cover;
 }
 #lovesz-hatter{
-  background-image: url(Források/képek/gunner.jpg);
+  background-image: url(Források/képek/gunner.jpg);}
 
 #bolygórégiókháttér {
   background-image: url(bolygórégiókháttér.jpg);
@@ -375,7 +375,7 @@ button{
   display: none
 }#more25{
   display: none
-
+}
 .sötétítő {
   background-color: rgba(0, 0, 0, 0.35);
 }
