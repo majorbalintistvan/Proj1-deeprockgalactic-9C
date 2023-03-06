@@ -295,7 +295,8 @@ function myFunction6() {
     btnText.innerHTML = "Vissacsukás"; 
     moreText.style.display = "inline";
   }
-}function myFunction5() {
+}
+function myFunction7() {
   var dots = document.getElementById("dots7");
   var moreText = document.getElementById("more7");
   var btnText = document.getElementById("myBtn7");
@@ -309,10 +310,188 @@ function myFunction6() {
     btnText.innerHTML = "Vissacsukás"; 
     moreText.style.display = "inline";
   }
-}function myFunction5() {
+}
+function myFunction8() {
   var dots = document.getElementById("dots8");
   var moreText = document.getElementById("more8");
   var btnText = document.getElementById("myBtn8");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction9() {
+  var dots = document.getElementById("dots9");
+  var moreText = document.getElementById("more9");
+  var btnText = document.getElementById("myBtn9");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction10() {
+  var dots = document.getElementById("dots10");
+  var moreText = document.getElementById("more10");
+  var btnText = document.getElementById("myBtn10");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}function myFunction11() {
+  var dots = document.getElementById("dots11");
+  var moreText = document.getElementById("more11");
+  var btnText = document.getElementById("myBtn11");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}function myFunction12() {
+  var dots = document.getElementById("dots12");
+  var moreText = document.getElementById("more12");
+  var btnText = document.getElementById("myBtn12");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}function myFunction13() {
+  var dots = document.getElementById("dots13");
+  var moreText = document.getElementById("more13");
+  var btnText = document.getElementById("myBtn13");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction14() {
+  var dots = document.getElementById("dots14");
+  var moreText = document.getElementById("more14");
+  var btnText = document.getElementById("myBtn14");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction15() {
+  var dots = document.getElementById("dots15");
+  var moreText = document.getElementById("more15");
+  var btnText = document.getElementById("myBtn15");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction16() {
+  var dots = document.getElementById("dots16");
+  var moreText = document.getElementById("more16");
+  var btnText = document.getElementById("myBtn16");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction17() {
+  var dots = document.getElementById("dots17");
+  var moreText = document.getElementById("more17");
+  var btnText = document.getElementById("myBtn17");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction18() {
+  var dots = document.getElementById("dots18");
+  var moreText = document.getElementById("more18");
+  var btnText = document.getElementById("myBtn18");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction19() {
+  var dots = document.getElementById("dots19");
+  var moreText = document.getElementById("more19");
+  var btnText = document.getElementById("myBtn19");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lenyitás"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Vissacsukás"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction20() {
+  var dots = document.getElementById("dots20");
+  var moreText = document.getElementById("more20");
+  var btnText = document.getElementById("myBtn20");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

@@ -273,16 +273,31 @@ h2 {
   background-position: 100%;
   background-size: cover;
 }
+#mernok-hatter{
+  background-image: url(Források/képek/engineer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100%;
+  background-size: cover;
+}
 .fejezetcim1{
-  margin-bottom: 1.2em;
+  margin-bottom: 1.1em;
 }
 .fejezetcim2{
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
+  margin-top: 1.1em;
+  margin-bottom: 1.1em;
 
 }
 .card-text{
   font-size: 2.5vh;
+}
+button{
+  padding: 5px 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #464646;
+  color: #ffffff;
 }
 #more1{
   display: none
