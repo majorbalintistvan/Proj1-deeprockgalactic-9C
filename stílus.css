@@ -185,6 +185,7 @@ h2 {
     margin-bottom: 1.25em;
     font-weight: 600;
     font-size:1.1em;
+    border: solid;
   }
   .option-div {
     font-size: 1.1em;
