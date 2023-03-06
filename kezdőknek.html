@@ -16,41 +16,67 @@
   </head>
   <body class="háttérkép">
     <div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html">
-          <img
-            src="Források\képek\főmenü logó.png"
-            alt="Logo"
-            style="width: 120px"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="Index.html">&#x2190; vissza</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="fegyvertár-elosztó.html">Fegyvertár</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kvíz.html">Kvíz</a>
-            </li>
-          </ul>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html">
+            <img
+              src="Források\képek\főmenü logó.png"
+              alt="Logo"
+              style="width: 120px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">&#x2190; vissza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kvíz.html">Kvíz</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+    <div>
+      <h2>Tartalom</h2>
+      <table class="table table-bordered table-hover table-dark table-responsive-sm">
+        <thead>
+          <tr>
+            <th>Cím</th>
+            <th>Tartalom</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#karakterekjelző">karakterek</a></td>
+            <td>A játékban található négy karakter ismertetése</td>
+          </tr>
+          <tr>
+            <td><a href="#küldetésekjelző">küldetések</a></td>
+            <td>A játékban található összes küldetés ismertetése</td>
+          </tr>
+          <tr>
+            <td><a href="#régiókjelző">Bolygórégiók</a></td>
+            <td>A játékban található bolygórégiók(pályarészek) ismertetése</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div id="krakaterháttér">
-      <h2>karakterek</h2>
+      <h2 id="karakterekjelző">karakterek</h2>
       <div class="table-responsive">
         <h3 class="row fenthely">
           <span class="col közép" id="fúrós">fúrós</span>
@@ -120,152 +146,730 @@
         </p>
       </div>
     </div>
-    <div id="küldetésháttér" >
-        <h2>küldetések</h2>
-        <div class="bányászháttér">
-          <h3 class="row">
-            <span class="balra kiscím">1.Bányászati expedíció</span>
-            <img class="ikon" src="Források\képek\küldetésképek\bányászlogo.webp" alt="Bányászati expedíció ikonja" title="Bányászati expedíció ikonja">
-          </h3>
-        </div>
-        <div class="bányászháttér szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A bányászati expedíció a legelső elérhető küldetés a kezdő  bányászoknak. A bányászati expedíció bányái általában egyvonalúak (nincs sok elágazás), ezért nem túl összetettek. A bányarészek föld fallal vannak összekötve és a bánya végén egy afféle kincses szoba van tele erőforrásokkal.</span>
-            <span> A bányászati expedíció célja összeszedni a megadott morkit mennyiséget. A szükséges morkit mennyisége nehézségi fokozatonként változik.</span>
-          </p>
-          <p class="col-lg">
-            <span>Morkit &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\Morkit.webp" alt="morkit">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">2. Tojásvadászat</span>
-            <img class="ikon" src="Források\képek\küldetésképek\tojásvadászatlogo.webp" alt="Tojásvadászat ikonja" title="Tojásvadászat ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A tojásvadászat bányái általában egy nagy kezdőszobából és sok kis elágazó útból állnak amik sok kisebb szobába vezetnek.</span>
-            <span> A tojásvadászat céja összegyűjteni megadott mennyiségű földönkívüli tojást. A tojások a falban vannak, de könnyű őket észrevenni, mert jól látható organikus masszával vannak körülvéve. Amikor a tojást kibányászod meg fog támadni egy tucat mérges földönkívüli.</span>
-          </p>
-          <p class="col-lg">
-            <span>Tojás organikus masszában &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\tojás.webp" alt="tojás organikus masszában">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">3. Helyi finomítás</span>
-            <img class="ikon" src="Források\képek\küldetésképek\helyszínifinomításlogo.webp" alt="Helyi finomítás ikonja" title="Helyi finomítás ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A helyi finomítás bányája egy nagy egybenyílt üreg, a közepén a helyi finomítóval. A pályán már érkezéskor megtámadnak mindenféle ellenfelek.</span>
-            <span>A cél az, hogy a pályán lévő három morkit kutat megtaláld és csövekkel bekösd a helyi finomítóba. Amikor mindhárom morkit kutat bekötötted, elindul a finomítási folyamat. Eközben az ellenfelek folyamatosan támadni fognak. Néha tönkremegy a cső és ereszteni kezd, ilyenkor meg  kell keresned és meg kell javítanod a problémát.</span>
-          </p>
-          <p class="col-lg">
-            <span>Morkitkút &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\morkitkút.webp" alt="Morkitkút">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">4. Mentési művelet</span>
-            <img class="ikon" src="Források\képek\küldetésképek\mentéslogo.webp" alt="Mentési művelet ikonja" title="Mentési művelet ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>Az első feladatod az, hogy megkeresd a (sajnos már nem élő) bányászok által otthagyott,tönkrement robot öszvéreket.</span>
-            <span>Miután ezeket megjavítottad meg kell keresned az ottmaradt és szintén tönkrement kimenekítő űrhajót. Itt a kommunikációs állomás megjavítása után túl kell élned az ellenfelek hordáit az állomás közvetlen közelében maradva. Ezekután küldenek egy üzemanyag kapszulát, amit miután bekötsz, szintén túl kell élned a közvetlen közelében. A csapat ezután sem pihenhet mert amíg megjavul a kimenekítő űrhajó, szintén túl kell élned az ellenfelek hullámait, bár itt már bármerre mehetsz közben.</span>
-          </p>
-          <p class="col-lg">
-            <span>Robotöszvér &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\robotöszvér.webp" alt="Robotöszvér">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">5. Kitermelés</span>
-            <img class="ikon" src="Források\képek\küldetésképek\extraction_logo.webp" alt="Kitermelés ikonja" title="Kitermelés ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A kitermelés bányái nagyon hasonlítanak a helyi finomításáira.A különbség az, hogy sokkal több ellenfél fog érkezni, ezért itt a helyi finomítóhoz hasonló bányászati platform van, csak ezen gépágyúk vannak.</span>
-            <span>A célod összeszedni adott számú akvarkot, amik a falban vannak elrejtve. Úgy tudod észrevenni, hogy enyhén kéken világító kis bogyók vannak a falon azon a része, ahol az akvark található. Miután ezt megtetted, elindul egy két perces számláló. Eddig kell túlélned az ellenfelek hordáit, amíg elmenekülhetsz.</span>
-          </p>
-          <p class="col-lg">
-            <span>Akvark &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\akvark.webp" alt="Akvark">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">6. Kíséret</span>
-            <img class="ikon" src="Források\képek\küldetésképek\fúrdózerlogo.webp" alt="Kíséret ikonja" title="Kíséret ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A feladatod az, hogy megvédd a fúrdózert, amíg átfúrja magát a célpontjához. Eközben folyamatosan támadni fognak az ellenfelek. A furdózernek nehézségtől függően 1-szer vagy 2-szer meg kell állnia tankolni. Ilyenkor meg kell fognod az üzemanyagtartályokat és ki kell vele bányásznod az olaj köveket.</span>
-          </p>
-          <p class="col-lg">
-            <span>Üzemanyagtöltés &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\olaj.webp" alt="Üzemanyagtöltés">
-          </p>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span><span>Amikor megérkezel, el fogja kezdeni kibányászni a fúrdózer az Ommorán-szívkövet. Ez a folyamat időígényes és nagyon sok ellenfél akarja megállítani.</span></span>
-          </p>
-          <p class="col-lg">
-            <span>Szívkő &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\szívkő.webp" alt="Szívkő">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">7. Kiiktatás</span>
-            <img class="ikon" src="Források\képek\küldetésképek\kiiktatáslogo.webp" alt="Kiiktatás ikonja" title="Kiiktatás ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>A kiiktatás egy egyszerűen megérthető küldetés, sajnos azt, hogy egyszerű a nehézsége, már nem lehet elmondani.</span>
-            <span>Feladatod megkeresni kettő vagy három (nehézségtől függ) földönkívüli gubót. Ezek a tojások főellenségeket tartalmaznak, amiket a bányászoknak le kell győzniük.</span>
-          </p>
-          <p class="col-lg">
-            <span>Földönkívüli gubó &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\nagytojás.webp" alt="Földönkívüli gubó">
-          </p>
-        </div>
-        <div>
-          <h3 class="row">
-            <span class="balra kiscím">8. Ipari szabotázs</span>
-            <img class="ikon" src="Források\képek\küldetésképek\ipariszabotázslogo.webp" alt="Ipari szabotázs ikonja" title="Ipari szabotázs ikonja">
-          </h3>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span>Az ipari szabotázs küldetésnél a feladatod az, hogy megszerezz értékes információt a konkurencia bányász cégektől. Viszont ezt az adatcellát egy gondviselőnek nevezett főellesnég védi.</span>
-          </p>
-          <p class="col-lg">
-            <span>Gondviselő &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\gondviselő.webp" alt="Gondviselő">
-          </p>
-        </div>
-        <div class="szövegbal küldetésekszöv row">
-          <p class="col-lg">
-            <span><span>A bányászok első feladata a gondviselő körüli védőburok kikapcsolása. Ehhez meg kell keresned és meg kell hackelned két pajzsgenerátort. Ez a folyamat vonzza az ellenfeleket. Ha ez megvan megküzdhetsz a gondviselővel. Sok szerencsét.</span></span>
-          </p>
-          <p class="col-lg">
-            <span>Adatcella &rarr;</span>
-            <img class="küldetésképek" src="Források\képek\küldetésképek\adatcella.webp" alt="Adatcella">
-          </p>
+    <div id="küldetésháttér">
+      <h2 id="küldetésekjelző">küldetések</h2>
+      <div class="bányászháttér">
+        <h3 class="row">
+          <span class="balra kiscím">1.Bányászati expedíció</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\bányászlogo.webp"
+            alt="Bányászati expedíció ikonja"
+            title="Bányászati expedíció ikonja"
+          />
+        </h3>
+      </div>
+      <div class="bányászháttér szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A bányászati expedíció a legelső elérhető küldetés a kezdő
+            bányászoknak. A bányászati expedíció bányái általában egyvonalúak
+            (nincs sok elágazás), ezért nem túl összetettek. A bányarészek föld
+            fallal vannak összekötve és a bánya végén egy afféle kincses szoba
+            van tele erőforrásokkal.</span
+          >
+          <span>
+            A bányászati expedíció célja összeszedni a megadott morkit
+            mennyiséget. A szükséges morkit mennyisége nehézségi fokozatonként
+            változik.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Morkit &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\Morkit.webp"
+            alt="morkit"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">2. Tojásvadászat</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\tojásvadászatlogo.webp"
+            alt="Tojásvadászat ikonja"
+            title="Tojásvadászat ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A tojásvadászat bányái általában egy nagy kezdőszobából és sok kis
+            elágazó útból állnak amik sok kisebb szobába vezetnek.</span
+          >
+          <span>
+            A tojásvadászat céja összegyűjteni megadott mennyiségű földönkívüli
+            tojást. A tojások a falban vannak, de könnyű őket észrevenni, mert
+            jól látható organikus masszával vannak körülvéve. Amikor a tojást
+            kibányászod meg fog támadni egy tucat mérges földönkívüli.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Tojás organikus masszában &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\tojás.webp"
+            alt="tojás organikus masszában"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">3. Helyi finomítás</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\helyszínifinomításlogo.webp"
+            alt="Helyi finomítás ikonja"
+            title="Helyi finomítás ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A helyi finomítás bányája egy nagy egybenyílt üreg, a közepén a
+            helyi finomítóval. A pályán már érkezéskor megtámadnak mindenféle
+            ellenfelek.</span
+          >
+          <span
+            >A cél az, hogy a pályán lévő három morkit kutat megtaláld és
+            csövekkel bekösd a helyi finomítóba. Amikor mindhárom morkit kutat
+            bekötötted, elindul a finomítási folyamat. Eközben az ellenfelek
+            folyamatosan támadni fognak. Néha tönkremegy a cső és ereszteni
+            kezd, ilyenkor meg kell keresned és meg kell javítanod a
+            problémát.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Morkitkút &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\morkitkút.webp"
+            alt="Morkitkút"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">4. Mentési művelet</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\mentéslogo.webp"
+            alt="Mentési művelet ikonja"
+            title="Mentési művelet ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >Az első feladatod az, hogy megkeresd a (sajnos már nem élő)
+            bányászok által otthagyott,tönkrement robot öszvéreket.</span
+          >
+          <span
+            >Miután ezeket megjavítottad meg kell keresned az ottmaradt és
+            szintén tönkrement kimenekítő űrhajót. Itt a kommunikációs állomás
+            megjavítása után túl kell élned az ellenfelek hordáit az állomás
+            közvetlen közelében maradva. Ezekután küldenek egy üzemanyag
+            kapszulát, amit miután bekötsz, szintén túl kell élned a közvetlen
+            közelében. A csapat ezután sem pihenhet mert amíg megjavul a
+            kimenekítő űrhajó, szintén túl kell élned az ellenfelek hullámait,
+            bár itt már bármerre mehetsz közben.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Robotöszvér &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\robotöszvér.webp"
+            alt="Robotöszvér"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">5. Kitermelés</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\extraction_logo.webp"
+            alt="Kitermelés ikonja"
+            title="Kitermelés ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A kitermelés bányái nagyon hasonlítanak a helyi finomításáira.A
+            különbség az, hogy sokkal több ellenfél fog érkezni, ezért itt a
+            helyi finomítóhoz hasonló bányászati platform van, csak ezen
+            gépágyúk vannak.</span
+          >
+          <span
+            >A célod összeszedni adott számú akvarkot, amik a falban vannak
+            elrejtve. Úgy tudod észrevenni, hogy enyhén kéken világító kis
+            bogyók vannak a falon azon a része, ahol az akvark található. Miután
+            ezt megtetted, elindul egy két perces számláló. Eddig kell túlélned
+            az ellenfelek hordáit, amíg elmenekülhetsz.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Akvark &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\akvark.webp"
+            alt="Akvark"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">6. Kíséret</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\fúrdózerlogo.webp"
+            alt="Kíséret ikonja"
+            title="Kíséret ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A feladatod az, hogy megvédd a fúrdózert, amíg átfúrja magát a
+            célpontjához. Eközben folyamatosan támadni fognak az ellenfelek. A
+            furdózernek nehézségtől függően 1-szer vagy 2-szer meg kell állnia
+            tankolni. Ilyenkor meg kell fognod az üzemanyagtartályokat és ki
+            kell vele bányásznod az olaj köveket.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Üzemanyagtöltés &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\olaj.webp"
+            alt="Üzemanyagtöltés"
+          />
+        </p>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            ><span
+              >Amikor megérkezel, el fogja kezdeni kibányászni a fúrdózer az
+              Ommorán-szívkövet. Ez a folyamat időígényes és nagyon sok ellenfél
+              akarja megállítani.</span
+            ></span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Szívkő &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\szívkő.webp"
+            alt="Szívkő"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">7. Kiiktatás</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\kiiktatáslogo.webp"
+            alt="Kiiktatás ikonja"
+            title="Kiiktatás ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >A kiiktatás egy egyszerűen megérthető küldetés, sajnos azt, hogy
+            egyszerű a nehézsége, már nem lehet elmondani.</span
+          >
+          <span
+            >Feladatod megkeresni kettő vagy három (nehézségtől függ)
+            földönkívüli gubót. Ezek a tojások főellenségeket tartalmaznak,
+            amiket a bányászoknak le kell győzniük.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Földönkívüli gubó &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\nagytojás.webp"
+            alt="Földönkívüli gubó"
+          />
+        </p>
+      </div>
+      <div>
+        <h3 class="row">
+          <span class="balra kiscím">8. Ipari szabotázs</span>
+          <img
+            class="ikon"
+            src="Források\képek\küldetésképek\ipariszabotázslogo.webp"
+            alt="Ipari szabotázs ikonja"
+            title="Ipari szabotázs ikonja"
+          />
+        </h3>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            >Az ipari szabotázs küldetésnél a feladatod az, hogy megszerezz
+            értékes információt a konkurencia bányász cégektől. Viszont ezt az
+            adatcellát egy gondviselőnek nevezett főellesnég védi.</span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Gondviselő &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\gondviselő.webp"
+            alt="Gondviselő"
+          />
+        </p>
+      </div>
+      <div class="szövegbal küldetésekszöv row">
+        <p class="col-lg">
+          <span
+            ><span
+              >A bányászok első feladata a gondviselő körüli védőburok
+              kikapcsolása. Ehhez meg kell keresned és meg kell hackelned két
+              pajzsgenerátort. Ez a folyamat vonzza az ellenfeleket. Ha ez
+              megvan megküzdhetsz a gondviselővel. Sok szerencsét.</span
+            ></span
+          >
+        </p>
+        <p class="col-lg">
+          <span>Adatcella &rarr;</span>
+          <img
+            class="küldetésképek"
+            src="Források\képek\küldetésképek\adatcella.webp"
+            alt="Adatcella"
+          />
+        </p>
+      </div>
+      <div id="bolygórégiókháttér">
+        <div class="sötétítő">
+          <h2 id="régiókjelző">Bolygórégiók</h2>
+          <div class="row">
+            <h3 class="kiscím">Azúr Pagony</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Káprázatos, foszforeszkáló mohacsomók világítják be a sötétséget,
+              szikrázó neonfényekbe öltöztetve ezt a termékeny és dús régiót.
+              Azonban ne hagyd, hogy hamis biztonságérzetbe ringasson - az Azúr
+              Pagony mély dzsungelt idéz, annak minden pompájával és borzalmával
+              - ahogy földi megfelelői, abszolút nem kirándulásra való. Ölj vagy
+              megölnek, itt ez a törvény. Ásványok: Bőséges Kroppa
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Kroppa.webp"
+                alt="Kroppa"
+                title="Kroppa"
+              />, Ritka Umanit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Umanit.webp"
+                alt="Umanit"
+                title="Umanit"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: Barlangi Angyal - az Azúr Pagony szelíd élőlénye,
+              lábaiba kapaszkodva utazásra is használhatóak.
+              <img
+                class="img-fluid angyalméret képközép"
+                src="Források\képek\bolygórégióképek\BarlangiAngyal.webp"
+                alt="Barlangi Angyal"
+                title="Barlangi Angyal"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\AzúrPagony.webp"
+              alt="Azúr Pagony"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Kristálybarlangok</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              A Hoxxes lenyűgöző tájainak egyike, a találóan elnevezett
+              kristálybarlangok valóban egy kihagyhatatlan látványosság. Minden
+              felületből hatalmas kristályok törnek elő, amelyek csillámlanak és
+              ragyognak a sötétben. Ugyan a legnagyobb kristályok anyaga főként
+              értéktelen szilikát, bőséggel találhatók a barlangban értékes
+              kristályok is. Ásványok: Bőséges Jádiz
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Jádiz.webp"
+                alt="Jádiz"
+                title="Jádiz"
+              />, Ritka Bizmor
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Bizmor.webp"
+                alt="Bizmor"
+                title="Bizmor"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: kristályképződmények - egyes kristályok
+              foszforeszkáló tulajdonsággal rendelkeznek mások azonban veszélyes
+              elektromos töltéseket hordoznak magukban.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\sokkkristály.webp"
+                alt="Elektromos kristály"
+                title="Elektromos kristály"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\Kristálybarlangok.webp"
+              alt="Kristálybarlangok"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Sűrű Biozóna</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Bárki is mondta, hogy a növényvilág nem alakulhat ki napfény nélül
+              még biztos nem járt a Hoxxesen. Ezt a területet magáévá tette a
+              földalatti esőerdő - tengernyi indák (leginkább húsevő)
+              növényvilág melyek együtt hoznak létre egy egész mikrokozmosznyi
+              életet mélyen a kéreg alatt. Járj fokozott figyelemmel. Ásványok:
+              Bőséges Bizmor
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Bizmor.webp"
+                alt="Bizmor"
+                title="Bizmor"
+              />, Ritka Umanit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Umanit.webp"
+                alt="Umanit"
+                title="Umanit"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: a magas növényzete miatt képes megnehezíteni a
+              különböző veszélyek láthatóságát.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\növényvilág.webp"
+                alt="Növényzetre példa"
+                title="Szép világítós virág"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\SűrűBiozóna.webp"
+              alt="Sűrű Biozóna"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Gombamocsarak</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Már majdnem sajnáljuk, hogy munkásokat küldünk ide, de a jutalmak
+              túl jók, hogy figyelmen kívül lehessen hagyni őket. Így hát légy
+              üdvözölve a Gombamocsarakban. Egy igazán borzasztó vidék, ami
+              nagyrészt iszapból, mohából, csípős bogarakból, büdös sárból és
+              maró zuzmóból áll össze. Ásványok: Bőséges Kroppa
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Kroppa.webp"
+                alt="Kroppa"
+                title="Kroppa"
+              />, Ritka Jádiz
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Jádiz.webp"
+                alt="Jádiz"
+                title="Jádiz"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: mérgező levegőt rád fújó gombák, nyúlós ragacs
+              pocsolyák.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\trutyi.webp"
+                alt="Trutyi"
+                title="Trutyi"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\Gombamocsarak.webp"
+              alt="Gombamocsarak"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Jeges Réteg</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Legalább egy xeno-geológus dühöngve távozott, amikor megkezdőttek
+              a kutatások ezen a területen. A hagyományos sarki jégsapkák
+              helyett, és minden általunk ismert fizikai törvényt megszegve, a
+              Hoxxes kőzetlemezei egy több mérföld mély örökfagy-réteg tetején
+              nyugszanak. Ahogy mindig a vezetőség a "ne kérdezd" megoldást
+              ajánlja, amikor a bolygó sajáttoságai kerülnek szóba. Ásványok:
+              Bőséges Magnit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Magnit.webp"
+                alt="Magnit"
+                title="Magnit"
+              />, Ritka Umanit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Umanit.webp"
+                alt="Umanit"
+                title="Umanit"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: Több veszályforrás is csökkenti majd a testhődet
+              ebben a régióban, ami miatt megfagyhatsz. Ez ellen helyi
+              melegforrások nyújtanak helyet a felmelegedésre.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\Hőzóna.webp"
+                alt="Melegforrás"
+                title="Melegforrás"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\Jég.webp"
+              alt="Jeges Réteg"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Odvas Bolygófa</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Az odvas bolygófa egy biológiai furcsaság, amin a tduományos
+              osztály is vakarja a fejét. A bolygó ezen régióját olyan óriási,
+              szerves halmaz dominálja, ami hasonló egy üreges fa belsejéhez.
+              Ezt a területet azonban egy telhetetlen, invazív kúszónövényszerű
+              indafaj fenyegeti, amely épp úgy veszélyt jelent ránk, mint magára
+              a bolygóra. Rendkívüli óvatossággal közlekedj ezen a területen.
+              Ásványok: Bőséges Jádiz
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Jádiz.webp"
+                alt="Jádiz"
+                title="Jádiz"
+              />, Ritka Bizmor
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Bizmor.webp"
+                alt="Bizmor"
+                title="Bizmor"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: Indák, nagyon szúrósak, semmi képpen se akarsz
+              belesétálni.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\tüskék.webp"
+                alt="Tüskés indák"
+                title="Tüskés indák"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\OdvasBolygófa.webp"
+              alt="Odvas Bolygófa"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Magmamag</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              A Magmamag egyike a legmélyebb bányászati helyszíneknek. A
+              kellemes 250-400 fokos járatainak megvilágításában a bolygó
+              kavargó, olvadt körzete segít. Azt tanácsoljuk, ne nyúlj ahhoz,
+              amit a küldetés nem ír elő, ugyanis a céges biztosítás nem terjed
+              ki az égési sérülésekre. Ásványok: Bőséges Magnit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Magnit.webp"
+                alt="Magnit"
+                title="Magnit"
+              />, Ritka Kroppa
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Kroppa.webp"
+                alt="Kroppa"
+                title="Kroppa"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: Magma gejzírek, Az izzó láva rendszeresen előtör a
+              talpad alól, ezért fokozott óvatosság ajánlott.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\LávaGejzír.webp"
+                alt="Láva gejzír"
+                title="Láva gejzír"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\Magmamag.webp"
+              alt="Magmamag"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Radioaktív tilalmi zóna</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              A bolygónak ezt a régióját évezredekig tartó nagy intenzítású
+              gamm-sugárzás érte, mára radioaktív hamu és rothadó növényvilággal
+              borított pokollá vált. Nagyon óvatosan mozogj és különösen figyelj
+              arra, hogy visszatérésedkor betartod a teljes méregtelenítési
+              eljárást. ki az égési sérülésekre. Ásványok: Bőséges Umanit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Umanit.webp"
+                alt="Umanit"
+                title="Umanit"
+              />, Ritka Enorgyöngy
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Enorgyöngy.webp"
+                alt="Enorgyöngy"
+                title="Enorgyöngy"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: Radioaktivítás, mindenütt észlelhető
+              radioaktivítás figyelhető meg ezen a területen, légy résen.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\Radioaktív_kristályok.webp"
+                alt="Radioaktív kristályok"
+                title="Radioaktív kristályok"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\RadioaktívZóna.webp"
+              alt="Radioaktív zóna"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Sóbányák</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              A Hoxxes sóbányák helyén valaha egy hatalmas földalatti tó terült el. A tó kiszáradt, hatalmas mennyiségű vörös sókristályt hagyva maga után. A vörös só, habár értéktelen, igazán jól kiegészíti a glifid rántotta ízét.
+              Ásványok: Bőséges Enorgyöngy
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Enorgyöngy.webp"
+                alt="Enorgyöngy"
+                title="Enorgyöngy"
+              />, Ritka Bizmor
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Bizmor.webp"
+                alt="Bizmor"
+                title="Bizmor"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegesség: a régió tele van veszélyes, instabil kristályokkal amik bármikor leeshetnek.
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\veszélyeskristály.webp"
+                alt="instabil kristályok"
+                title="instabil kristályok"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\Sóbányák.webp"
+              alt="Sóbányák"
+            />
+          </div>
+          <div class="row">
+            <h3 class="kiscím">Homokfútta folyosók</h3>
+          </div>
+          <div class="row">
+            <p class="col-lg-6 küldetésekszöv">
+              Ezt a régiót a talajt behálózó több tucat kilóméternyi szélfútta, száraz alagutak uralják. A környező sziklák különös összetétele gyakorlatilag páramentességet erdményez, ezzel a bolygó legszárazabb területévé téve ezt a régiót. Mivel a víz nagy kincs, a helyi élövilág különösen aggresszívan és mohón szomjazik mindne folyadékra, amit a prédájából kinyerhet.
+              Ásványok: Bőséges Enorgyöngy
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Enorgyöngy.webp"
+                alt="Enorgyöngy"
+                title="Enorgyöngy"
+              />, Ritka Magnit
+              <img
+                class="ásványok"
+                src="Források\képek\bolygórégióképek\ásványok\Magnit.webp"
+                alt="Magnit"
+                title="Magnit"
+              />
+            </p>
+            <p class="col-lg-3 küldetésekszöv képközép">
+              Különlegessége: gyakoriak a homokviharok ezeken a területeken
+              <img
+                class="img-fluid képközép"
+                src="Források\képek\bolygórégióképek\homokvihar.webp"
+                alt="homovihar"
+                title="homovihar"
+              />
+            </p>
+          </div>
+          <div class="row képközép">
+            <img
+              class="img-fluid képközép"
+              src="Források\képek\bolygórégióképek\homokbánya.webp"
+              alt="Homokfútta folyosók"
+            />
+          </div>
         </div>
       </div>
+    </div>
   </body>
 </html>
