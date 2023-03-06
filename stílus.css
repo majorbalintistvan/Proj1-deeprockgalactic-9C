@@ -287,6 +287,13 @@ h2 {
   background-position: 100%;
   background-size: cover;
 }
+#felderito-hatter{
+  background-image: url(Források/képek/scout.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100%;
+  background-size: cover;}
+  
 .fejezetcim1{
   margin-bottom: 1.1em;
 }
@@ -346,5 +353,15 @@ button{
 }#more19{
   display: none
 }#more20{
+  display: none
+}#more21{
+  display: none
+}#more22{
+  display: none
+}#more23{
+  display: none
+}#more24{
+  display: none
+}#more25{
   display: none
 }
