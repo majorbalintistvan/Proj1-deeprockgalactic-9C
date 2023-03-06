@@ -263,16 +263,21 @@ h2 {
 }
 .card{
   background-color: #000000ca;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 .fegyverek{
   height: 50vh;
 }
 .eloszto{
-  height: 50vh;
+  height: 40vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  
 }
 
 #furos-hatter{
-  background-image: url(Források/képek/driller.jpg);
+  background-image: url(Források/képek/1286244.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 100%;
