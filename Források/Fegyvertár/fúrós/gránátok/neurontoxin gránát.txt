@@ -1,4 +1,3 @@
 Ez egy élénksárga tartály, tele mérgező gázzal, amely mérgező az ellenség számára. A gáz nagyon gyúlékony, és bármilyen tűz alapú támadással meggyulladhat, és nagy tüzes robbanást idézhet elő.
-
 Ha egyszer eldobják, a Neurotoxin gránát lassan mérgező gázt bocsát ki egy hatalmas sugárban, ami messze a legnagyobb a játék gránátjai közül. A gázfelhőn átsétáló ellenségek megmérgeződnek , csökkentve mozgási sebességüket, és idővel fokozatos sebzést okozva bennük. A gáz elhalványul, amint teljesen elterjedt. Azonban a gránát másik funkciója az, hogy meggyújtja a gázt a Fúrós lángszórójával, és felrobban. Ez erősen megsebesít minden ellenséget a gázfelhőben, és kétlépcsős funkciót ad a gránátnak; hagyja, hogy a gáz a lehető legmesszebb terjedjen, majd gyújtsa meg, hogy megöljön mindent, ami túléli a mérget.
 
