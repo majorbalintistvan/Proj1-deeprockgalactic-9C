@@ -390,8 +390,6 @@ button{
   width: 50px;
 }
 .carousel.slide{
-  max-height: 85vh;
-  max-width: 85vw;
   margin-left:8vw;
   margin-right:8vw; 
   padding-top: 2vh;
