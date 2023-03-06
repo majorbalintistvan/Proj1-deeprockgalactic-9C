@@ -29,7 +29,7 @@ const quizArray = [
   },
   {
     id: "2",
-    question: "Hányszor szenvedhet maradandó sérülést Doretta?",
+    question: "Hányszor szenvedhet maradandó sérülést Dorottya?",
     options: ["2", "4", "5", "3"],
     correct: "2",
   },

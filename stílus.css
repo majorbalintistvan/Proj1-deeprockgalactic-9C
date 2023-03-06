@@ -196,7 +196,6 @@ h2 {
     background: transparent;
     border-radius: 0.3em;
     color: #ffffff;
-
   }
   .option-div:disabled {
     color: #f8f8f8;
@@ -264,16 +263,21 @@ h2 {
 }
 .card{
   background-color: #000000ca;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 .fegyverek{
   height: 50vh;
 }
 .eloszto{
-  height: 50vh;
+  height: 40vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  
 }
 
 #furos-hatter{
-  background-image: url(Források/képek/driller.jpg);
+  background-image: url(Források/képek/1286244.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 100%;
@@ -384,4 +388,12 @@ button{
 }
 .ásványok {
   width: 50px;
+}
+.carousel.slide{
+  max-height: 85vh;
+  max-width: 85vw;
+  margin-left:8vw;
+  margin-right:8vw; 
+  padding-top: 2vh;
+  padding-top: 0.5vh;
 }
