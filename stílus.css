@@ -196,7 +196,6 @@ h2 {
     background: transparent;
     border-radius: 0.3em;
     color: #ffffff;
-
   }
   .option-div:disabled {
     color: #f8f8f8;
@@ -384,4 +383,12 @@ button{
 }
 .ásványok {
   width: 50px;
+}
+.carousel.slide{
+  max-height: 85vh;
+  max-width: 85vw;
+  margin-left:8vw;
+  margin-right:8vw; 
+  padding-top: 2vh;
+  padding-top: 0.5vh;
 }
